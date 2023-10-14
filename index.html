@@ -2793,6 +2793,9 @@
       float: right
     }
 
+  
+
+
     .cv-section-header {
       background-color: #fff;
       color: #000
@@ -8923,7 +8926,7 @@
     }
   </style>
   <style data-brackets-id="7503">
-    ##home_header.is-loading-bg-image {
+    #home_header.is-loading-bg-image {
       -webkit-box-shadow: inset #ffffff 0px 0px 0px 5000px !important;
       box-shadow: inset #ffffff 0px 0px 0px 5000px !important;
     }
@@ -8954,6 +8957,27 @@
       width: 100%;
       height: 100%;
     }
+    #space{
+      height:10em;
+    }
+    @media screen and (max-width: 400px) {
+    #header {
+        position: relative;
+        width: 100%;
+        top: 50px
+    }
+
+    #header-logo{
+      width: 93px;
+    }
+    #title{
+      font-size: 28px;
+    }
+    #space{
+      height: 0em;
+    }
+
+}
   </style>
   <style data-brackets-id="7507" type="text/css"></style>
   <style data-brackets-id="7508" type="text/css"></style>
@@ -9011,7 +9035,7 @@
               <div data-brackets-id="7557" class="wrap has-clearfix is-false no-sidebar">
                 <div data-brackets-id="7558" class="content-section-detail">
                   <div data-brackets-id="7559" class="cv-user-font">
-                    <div data-brackets-id="7560" class="cv-spacer clearfix" style="height:10em;"></div>
+                    <div data-brackets-id="7560" id="space" class="cv-spacer clearfix"></div>
                     <div data-brackets-id="7561" class="cv-single-column has-clearfix max-width-50 column-align-center" data-visibility="all">
                       <div data-brackets-id="7562">
                         <h1 data-brackets-id="7563" class="proviso-heading">
